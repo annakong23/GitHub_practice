@@ -1,13 +1,12 @@
-name: 실험 템플릿
-about: 새로운 실험의 세부 사항을 문서화하세요.
-labels: [experiment, discussion]
+title: "실험 템플릿"
+labels: "experiment, ongoing"
 
 body:
   - type: markdown
     attributes:
       value: |
         ## 🧪 실험 템플릿
-        아래의 항목들을 채워주세요.
+        아래 항목들을 채워주세요. 실험 설계와 진행 상황을 체계적으로 기록하는 데 도움을 줍니다.
 
   - type: input
     id: title
@@ -85,3 +84,10 @@ body:
         - [논문 링크](https://example.com)
         - [코드 링크](https://github.com/example/repo)
       required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ### 참고 사항
+        - 실험 결과와 진행 상황을 주기적으로 업데이트해주세요.
+        - 주요 변경 사항은 팀과 공유해야 합니다.
